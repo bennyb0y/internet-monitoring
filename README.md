@@ -9,7 +9,7 @@ https://github.com/maxandersen/internet-monitoring
 Here's a quick start to stand-up a Docker [Prometheus](http://prometheus.io/) stack containing Prometheus, Grafana with  [blackbox-exporter](https://github.com/prometheus/blackbox_exporter) and [prometheus-speedtest](https://github.com/jeanralphaviles/prometheus_speedtest) to collect and graph home network connections and speed.
 
 ## Pre-requisites
-Before we get started installing the Prometheus stack. Ensure you install the latest version of docker and [docker-compose](https://docs.docker.com/compose/install/) on your Docker RPI. This has been tested with Docker Raspberry pi 3+ with raspbian buster. Tuning would be needed for RPI version 4 for 64bit.
+Before we get started installing the Prometheus stack. Ensure you install the latest version of docker and [docker-compose](https://docs.docker.com/compose/install/) on your Docker RPI. This has been tested with Docker on Raspberry pi 3+ with raspbian buster. Tuning would be needed for RPI version 4 for 64bit.
 
 # Quick Start
 run:
