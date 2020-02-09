@@ -62,6 +62,7 @@ http://localhost:9115 blackbox exporter endpoint. Lets you see what have failed/
 http://localhost:9516/probe prometheus_speedtest exporter endpoint. Does take ~45 seconds to show its result as it runs an actual speedtest when requested.
 
 
-## Thanks
+## Thanks/Warnings
 
 Thx to @maxandersen for building this and maintaining this. I only made edits.
+The prometheus_speedtest will download +10g of testing data per day.
