@@ -47,7 +47,7 @@ The DataSource and Dashboard for Grafana are automatically provisioned.
 
 If all works it should be available at http://localhost:3030/d/o9mIe_Aik/internet-connection - if no data shows up try change the timeduration to something smaller.
 
-<center><img src="images/dashboard.png" width="4600" heighth="500"></center>
+<center><img src="dashboard.png" width="4600" heighth="500"></center>
 
 ## Interesting urls
 
