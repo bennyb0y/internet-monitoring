@@ -23,6 +23,7 @@ services:
       - 9090:9090
     links:
       - ping:ping
+      - speedtest:speedtest
     networks:
       - back-tier
 
@@ -55,6 +56,20 @@ services:
       - '--config.file=/config/blackbox.yml'
     networks:
       - back-tier
+
+  speedtest:
+    tty: true
+    stdin_open: true
+    expose:
+        - 9112
+    ports:
+        - 9112:9112
+    image: pgolm/speedtest_exporter:0.3.0
+    restart: always
+    networks:
+        - back-tier
+    extra_hosts:
+        - "esc.speedtest.t-mobile.com:66.191.66.94"
 
   prometheus_speedtest:
     tty: true
