@@ -2,9 +2,9 @@
 Raspberry pi version of: 
 https://github.com/maxandersen/internet-monitoring
 
-new speedtester 
-new visuals
-works on RPI
+*new speedtester 
+*new visuals
+*works on RPI
 
 ## Thanks and a disclaimer
 
